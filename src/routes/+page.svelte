@@ -14,4 +14,9 @@
 <p>The current count is {count}.</p>
 <button on:click={increment}>Increment</button>
 <button on:click={decrement}>Decrement</button>
+
+<br />
+
+<a href="/menu">This is a link to Menu</a>
+
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
