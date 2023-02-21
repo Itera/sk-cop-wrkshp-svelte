@@ -1,22 +1,6 @@
 <script lang="ts">
-  let count = 1;
-
-  function increment(): void {
-    count += 1;
-  }
-
-  function decrement(): void {
-    count -= 1;
-  }
+  import { goto } from "$app/navigation"
 </script>
 
-<h1>Welcome to SvelteKit!</h1>
-<p>The current count is {count}.</p>
-<button on:click={increment}>Increment</button>
-<button on:click={decrement}>Decrement</button>
-
-<br />
-
-<a href="/menu">This is a link to Menu</a>
-
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Menu</h1>
+<button on:click={ () => goto("/game") }>Start game</button>
