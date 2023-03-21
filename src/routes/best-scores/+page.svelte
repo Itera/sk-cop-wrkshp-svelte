@@ -1,11 +1,15 @@
 <script lang="ts">
-  import { goto } from "$app/navigation";
+  import Menu from "../Menu.svelte";
+  import MenuItem from "../MenuItem.svelte";
+  import Link from "../Link.svelte";
 </script>
 
 <h1>Best scores</h1>
 
 <p>TODO</p>
 
-<ul>
-  <li><button on:click={ () => goto("/") }>Back to menu</button></li>
-</ul>
+<Menu>
+  <MenuItem>
+    <Link target="/" label="Back to menu" />
+  </MenuItem>
+</Menu>
