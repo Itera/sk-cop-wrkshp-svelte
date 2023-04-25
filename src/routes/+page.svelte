@@ -1,4 +1,4 @@
-<script lang="ts" xmlns:MenuItem="http://www.w3.org/1999/html">
+<script lang="ts">
   import Menu from './Menu.svelte';
   import MenuItem from './MenuItem.svelte';
   import Link from './Link.svelte';

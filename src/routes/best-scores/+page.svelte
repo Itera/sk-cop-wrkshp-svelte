@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Menu from "../Menu.svelte";
-  import MenuItem from "../MenuItem.svelte";
-  import Link from "../Link.svelte";
+  import Menu from '../Menu.svelte';
+  import MenuItem from '../MenuItem.svelte';
+  import Link from '../Link.svelte';
 </script>
 
 <h1>Best scores</h1>
